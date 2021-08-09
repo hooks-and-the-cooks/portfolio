@@ -1,0 +1,11 @@
+.header{
+    background-color:rgb(95, 182, 182);
+    margin: 10%;
+    border-radius: 10px;
+    position:sticky;
+    text-align: center;
+    color:whitesmoke;
+    text-shadow:2px 2px 5px gray;
+    padding: 50px;
+    font-family: 'Brush Script MT', cursive;
+}
