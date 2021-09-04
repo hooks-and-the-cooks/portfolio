@@ -18,16 +18,19 @@ class NavBar extends Component{
                             <NavLink className="click" href="/home" >Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="click" href="/#">About Us</NavLink>
+                            <NavLink className="click" href="/">About Us</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            
                         </NavItem>
                         <NavDropdown className="click" title="Explore">
-                                <NavDropdown.Item>ReactJS</NavDropdown.Item>
+                                <NavDropdown.Item href="#">ReactJS</NavDropdown.Item>
                                 <NavDropdown.Item>NodeJS</NavDropdown.Item>
                                 <NavDropdown.Item>Handling Git and Github</NavDropdown.Item>
                         </NavDropdown>
+
                     </Nav>
                  </div>
-
              </Navbar>
          )
      }
